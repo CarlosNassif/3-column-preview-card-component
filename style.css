@@ -43,7 +43,7 @@ body {
 
   .card {
     height: 100%;
-    max-width: 250px;
+    max-width: 210px;
   }
 
   main {
@@ -83,8 +83,9 @@ body {
 
   .card {
     max-width: 300px;
-    margin-left: max(10%, 15px);
-    margin-right: max(10%, 15px);
+    margin-left: max(5%, 15px);
+    margin-right: max(5%, 15px);
+    min-width: 242px;
   }
 }
 
@@ -100,8 +101,10 @@ body {
 }
 
 .card p {
-  color: #f2f2f2;
+  color: #ffffffbf;
   font-size: 15px;
+  letter-spacing: 0.03em;
+  line-height: 170%;
   font-family: 'Lexend Deca', sans-serif;
   font-weight: 400;
 }
@@ -131,15 +134,17 @@ body {
 }
 
 .button-learn-more {
-  border-radius: 18px;
-  height: 35px;
-  width: 105px;
+  border-radius: 25px;
+  height: 50px;
+  width: 145px;
   background: #f2f2f2;
   text-decoration: none;
   border: none;
   font-family: 'Lexend Deca', sans-serif;
   font-weight: 400;
   margin-top: 21px;
+  position: relative;
+  top: 24%;
 }
 
 .button-learn-more:active {
